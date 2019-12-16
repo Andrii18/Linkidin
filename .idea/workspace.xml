@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b5209c-28db-49ab-b86e-11afcdf28e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkidin/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkidin/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkidin/SingInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Linkidin/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkidin/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkidin/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkidin/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linkidin/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkidin/BaseTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
