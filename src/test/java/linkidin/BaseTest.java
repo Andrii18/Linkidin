@@ -10,6 +10,8 @@ public class BaseTest {
 
     protected static WebDriver driver;
 
+    protected static Client client;
+
     @BeforeClass
     public static void testBase() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\andri\\Desktop\\chromedriver.exe");
@@ -23,6 +25,8 @@ public class BaseTest {
         String expectTitle = "LinkedIn: Log In or Sign Up";
 
         Assert.assertEquals(expectTitle, actualTitle);
+
+        client = new Client("ustkos9@gmail.com", "205r13R13");
 
     }
 

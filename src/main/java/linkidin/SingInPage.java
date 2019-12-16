@@ -14,16 +14,16 @@ public class SingInPage extends BasePage {
     }
 
     @FindBy(css = ".form__input--floating'")
-    private List<WebElement> SingInPageFields;
+    private List<WebElement> singInPageFields;
 
     public void EmailOrPhoneFields(String email) {
-        wait.until(ExpectedConditions.elementToBeClickable(SingInPageFields.get(0)));
-        SingInPageFields.get(0).sendKeys(email);
+        wait.until(ExpectedConditions.elementToBeClickable(singInPageFields.get(0)));
+        singInPageFields.get(0).sendKeys(email);
     }
 
-    public void PasswordField(String password) {
-        wait.until(ExpectedConditions.elementToBeClickable(SingInPageFields.get(1)));
-        SingInPageFields.get(1).sendKeys(password);
+    public void passwordField(String password) {
+        wait.until(ExpectedConditions.elementToBeClickable(singInPageFields.get(1)));
+        singInPageFields.get(1).sendKeys(password);
     }
 
     @FindBy(css = ".login__form_action_container")
