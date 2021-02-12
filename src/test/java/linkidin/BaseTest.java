@@ -29,7 +29,7 @@ public class BaseTest {
 
         Assert.assertEquals(expectTitle, actualTitle);
 
-        client = new Client("ustkos9@gmail.com", "205r13R13");
+        client = new Client("ustkos9@gmail.com", "********");
 
     }
 
