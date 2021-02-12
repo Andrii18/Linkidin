@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b5209c-28db-49ab-b86e-11afcdf28e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkidin/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/linkidin/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkidin/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkidin/ProfileHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkidin/ProfileHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkidin/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkidin/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/linkidin/SingInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkidin/SingInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/linkidin/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkidin/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/linkidin/VerifyProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkidin/VerifyProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkidin/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkidin/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkidin/SingInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkidin/SingInPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/linkidin/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linkidin/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linkidin/VerifyProfileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linkidin/VerifyProfileTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerifyProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkidin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkidin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkidin" />
+      <option name="MAIN_CLASS_NAME" value="linkidin.VerifyProfileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerifyProfileTest.testVerifyProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkidin" />
       <extension name="coverage">
@@ -91,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.VerifyProfileTest.testVerifyProfile" />
+        <item itemvalue="JUnit.VerifyProfileTest" />
         <item itemvalue="JUnit.BaseTest" />
       </list>
     </recent_temporary>

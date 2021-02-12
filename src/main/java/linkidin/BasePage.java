@@ -10,8 +10,9 @@ public class BasePage {
     protected WebDriverWait wait;
 
     public BasePage(WebDriver driver) {
-        PageFactory.initElements(driver, "this");
+        PageFactory.initElements(driver, this);
         this.driver = driver;
-        wait = new WebDriverWait(driver,"10");
+        wait = new WebDriverWait(driver, 10);
     }
+
 }

@@ -13,17 +13,17 @@ public class SingInPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(css = ".form__input--floating'")
+    @FindBy(css = "input")
     private List<WebElement> singInPageFields;
 
     public void EmailOrPhoneFields(String email) {
-        wait.until(ExpectedConditions.elementToBeClickable(singInPageFields.get(0)));
-        singInPageFields.get(0).sendKeys(email);
+        wait.until(ExpectedConditions.elementToBeClickable(singInPageFields.get(1));
+        singInPageFields.get(1).sendKeys(email);
     }
 
     public void passwordField(String password) {
-        wait.until(ExpectedConditions.elementToBeClickable(singInPageFields.get(1)));
-        singInPageFields.get(1).sendKeys(password);
+        wait.until(ExpectedConditions.elementToBeClickable(singInPageFields.get(13)));
+        singInPageFields.get(13).sendKeys(password);
     }
 
     @FindBy(css = ".login__form_action_container")

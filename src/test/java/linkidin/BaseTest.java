@@ -4,11 +4,14 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseTest {
 
     protected static WebDriver driver;
+
+    protected HomePage homePage;
 
     protected static Client client;
 
